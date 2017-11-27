@@ -21,13 +21,13 @@ function microphoneError(e) {
 };
 
 // Create an <audio> element.
-// var audio = new Audio();
+var audio = new Audio();
 	
 // // Pick any one of these songs
-// audio.src = 'music/Tobu - Roots [NCS Release].mp3'
-// audio.autoplay = true;
-// audio.playbackRate = 1;
+audio.src = 'music/Tobu - Roots [NCS Release].mp3'
+audio.autoplay = true;
+audio.playbackRate = 1;
 
 // // Our <audio> element will be the audio source.
-// source = context.createMediaElementSource(audio);
+source = context.createMediaElementSource(audio);
 
