@@ -1,7 +1,7 @@
 // set up for audio input
 try {
-	navigator.getUserMedia = navigator.webkitGetUserMedia
-	navigator.webkitGetUserMedia({audio: true, video: false}, connectStream, microphoneError);
+//	navigator.getUserMedia = navigator.webkitGetUserMedia
+//	navigator.webkitGetUserMedia({audio: true, video: false}, connectStream, microphoneError);
 }
 catch(e) {
 	alert("Sorry, your browser doesn't support the magic of getUserMedia \n try the latest firefox or chrome");
